@@ -1,0 +1,628 @@
+@media only screen and (max-width: 767px) {
+
+body {
+   overflow-x: hidden;
+}
+
+p {
+  padding: 25px;
+  width: 95%;
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+.page1{
+    height: 100%;
+    width: 100%;
+    left: 0;
+}
+
+header {
+  height: 90px;
+}
+/*Github Icon*/
+#github {
+  float: left;
+  font-size: 30px;
+  color: black;
+  margin-left: 20px;
+  margin-top: 20px;
+ }
+
+
+/* TITLE */
+.wrapper {
+  letter-spacing: 10px;
+  margin-top: 20px;
+  font: 30px "Playfair Display", Georgia, serif;
+  color: #666;
+
+}
+
+/*HAM MENU*/
+.menu1 {
+  box-sizing: content-box !important;
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  z-index: 10000;
+  color: #000;
+  border-radius: 10%;
+}
+
+/* PORTFOLIO SWITCH */
+.three .button-wrap {
+  width: 100px;
+  margin: 10px auto;
+  cursor: pointer;
+}
+.three .button-bg {
+  width: 100%;
+  height: 100%;
+  background-color: #ddd;
+  border-radius: 40px;
+  padding: 3px;
+  color: #fff;
+  transition: all 0.2s ease;
+}
+.three .button-switch {
+  position: relative;
+  left: 0px;
+  width: 44px;
+  height: 20px;
+  border: solid 13px;
+  background-color: #fff;
+  border-radius: 36px;
+  transition: all 0.2s ease;
+}
+.three .button-active .button-switch {
+  left: 50px;
+}
+.three .button-in,
+.three .button-out {
+  position: absolute;
+  transition: all 0.2s ease;
+  padding-top: 15px;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.three .button-in {
+  margin-left: 76px;
+}
+
+.three .button-out {
+  margin-left: 18px;
+}
+
+.three .button-active .button-bg {
+  background-color: #22bb22;
+}
+
+.view p {
+  float: left;
+  margin-left: 10px;
+  font-size: 12px;
+  margin-top: 20px;
+  color: #ddd;;
+}
+
+.closeview p {
+
+  margin-right: 10px;
+  font-size: 12px;
+margin-top: -30px;
+
+}
+
+/*About page*/
+.AboutPage {
+  overflow-y: auto;
+
+}
+
+.aboutCont {
+  width: 95%;
+  height: 90%;
+  background: white;
+  margin: 50px auto;
+  opacity: 0.90;
+      -webkit-box-shadow: 0 0 10px 2px #000;
+    -moz-box-shadow: 0 0 10px 2px #000;
+    box-shadow: 0 0 10px 2px #000;
+
+
+}
+
+
+.AboutPage img {
+  width: 100px;
+  height: 100px;
+}
+
+.AboutPage h1 {
+  font-size: 30px;
+  color: black;
+  padding-top: 50px;
+}
+
+.AboutPage p {
+  font-size: 16px;
+  color: black;
+font-weight: bold;
+  width: 95%;
+}
+
+
+.overlay {
+  position: absolute;
+}
+
+/*Flower of Life port size*/
+.menu, .button {
+  margin-top: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+/*FOL position*/
+.menu {
+  position: absolute;
+ margin-left: 40%;
+ margin-top: 5px;
+}
+
+/*FOL Port circle positions*/
+.udacity {
+  background-color: white;
+  top: -80%;
+  left: -80%;
+  width: 80px;
+  height: 80px;
+}
+
+.closed .udacity {
+  -webkit-transform: translate3d(60%, 35%, 0) rotate(-180deg);
+          transform: translate3d(60%, 35%, 0) rotate(-180deg);
+  width: 100px;
+  height: 100px;
+
+}
+
+.Neha {
+  background-color: orange;
+  top: -80%;
+  left: 0%;
+  width: 80px;
+  height: 80px;
+
+}
+.closed .Neha {
+  width: 100px;
+  height: 100px;
+  -webkit-transform: translate3d(-50%, 80%, 0) rotate(-180deg);
+          transform: translate3d(-50%, 80%, 0) rotate(-180deg);
+
+}
+.TFG {
+  background-color: blue;
+  top: 0%;
+  left: -80%;
+  width: 80px;
+  height: 80px;
+}
+.closed .TFG {
+  width: 100px;
+  height: 100px;
+  -webkit-transform: translate3d(60%, 30%, 0) rotate(-180deg);
+          transform: translate3d(60%, 30%, 0) rotate(-180deg);
+
+}
+
+.GRMG1 {
+  background-color: green;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+}
+.closed .GRMG1 {
+  width: 100px;
+  height: 100px;
+  -webkit-transform: translate3d(0, 0, 0) rotate(-180deg);
+          transform: translate3d(0, 0, 0) rotate(-180deg);
+
+}
+
+.doc {
+  background-color: red;
+  top: 0%;
+  left: 80%;
+  width: 80px;
+  height: 80px;
+}
+.closed .doc {
+  width: 100px;
+  height: 100px;
+  -webkit-transform: translate3d(-60%, -45%, 0) rotate(-180deg);
+          transform: translate3d(-60%, -45%, 0) rotate(-180deg);
+
+}
+
+.TNT {
+  background-color: yellow;
+  top: -80%;
+  left: 80%;
+  width: 80px;
+  height: 80px;
+}
+.closed .TNT {
+  width: 100px;
+  height: 100px;
+  -webkit-transform: translate3d(-30%,80%, 0) rotate(-180deg);
+          transform: translate3d(-30%, 80%, 0) rotate(-180deg);
+
+}
+
+.Sam {
+  top: 80%;
+  left: 0%;
+  width: 80px;
+  height: 80px;
+}
+.closed .Sam {
+  width: 100px;
+  height: 100px;
+  -webkit-transform: translate3d(20%, -50%, 0) rotate(-180deg);
+          transform: translate3d(20%, -50%, 0) rotate(-180deg);
+
+}
+
+/*modal content*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    text-align: center;
+}
+
+
+/* Modal Content/Box */
+.modal-content {
+  margin-top: 80px;
+    height: 80%;
+    width: 100%;
+    overflow: auto; /* Enable scroll if needed */
+     /* Could be more or less, depending on screen size */
+}
+
+
+/*Rest of Websites Modal Content*/
+.boxP {
+  border: 1px solid #fff;
+}
+
+.boxP h5 {
+  padding: 10px;
+}
+.boxW {
+    height: 200px;
+    margin: 30px auto;
+    width: 100%;
+}
+
+.boxW h1 {
+  font-size: 25px;
+  padding-top: 40px;
+}
+
+.boxW h3 {
+  display: none;
+}
+
+.boxW p {
+  display: none;
+}
+
+#thumb {
+  display: none;
+}
+
+#modal1 h1 {
+  font-size: 20px;
+  text-align: center;
+  padding: 30px;
+}
+
+#modal1 h3 {
+  font-size: 18px;
+}
+
+#modal1 p {
+  font-size: 14px;
+  width: 100%;
+}
+
+
+
+/* Map project box*/
+#boxMap  {
+    height: 400px;
+}
+#boxMap .caption  {
+    height: 400px;
+}
+
+/* Arcade project box*/
+#boxGame  {
+    height: 250px;
+}
+#boxGame .caption  {
+    height: 250px;
+}
+
+/* Port project box*/
+#boxPort  {
+    height: 250px;
+}
+#boxPort .caption  {
+    height: 250px;
+}
+
+/* Port project box*/
+#boxRes  {
+    height: 320px;
+}
+#boxRes .caption  {
+    height: 320px;
+}
+
+
+#modal2 h4 {
+  display: inline-block;
+  padding: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
+#modal2 h5 {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+
+#modal3 h4 {
+  display: inline-block;
+  padding: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
+#modal3 h5 {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+    font-size: 20px;
+}
+
+#modal4 h4 {
+  display: inline-block;
+  padding: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
+#modal4 h5 {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+
+
+#modal5 h4 {
+  display: inline-block;
+  padding: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
+#modal5 h5 {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+    font-size: 20px;
+}
+
+#modal6 h4 {
+  display: inline-block;
+  padding: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
+#modal6 h5 {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+    font-size: 20px;
+}
+
+#modal7 h4 {
+  display: inline-block;
+  padding: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
+#modal7 h5 {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+    font-size: 20px;
+}
+
+#modal2 h5:hover {
+  color: orange;
+}
+
+#modal3 h5:hover {
+  color: blue;
+}
+
+#modal4 h5:hover {
+  color: green;
+}
+
+#modal5 h5:hover {
+  color: red;
+}
+
+#modal6 h5:hover {
+  color: yellow;
+}
+
+#modal7 h5:hover {
+  color: purple;
+}
+
+
+
+
+.parallax {
+    margin-top: 400px;
+    height: 100px;
+}
+
+/* Clip text element */
+.clip-text {
+    font-size: 3em;
+    padding: .7em .75em;
+}
+
+#skills h4{
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  padding: 25px;
+}
+
+
+#box1 h3 {
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#box2 h3 {
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#box3 h3 {
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+#box4 h3 {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#box1 p {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#box2 p {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#box3 p {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+#box4 p {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+
+
+
+.box .scale-caption h3, .box .scale-caption p {
+    width: 100%;
+}
+
+.parallax2 {
+  height: 100px;
+}
+
+
+.gmailContent {
+    width: 95%;
+    height: 60%;
+}
+
+.gmailContent h3 {
+  font-size: 18px;
+  padding-top: 30px;
+}
+
+.gmailContent h4 {
+  font-size: 20px;
+  color: red;
+  padding-top: 20px;
+}
+
+.gmailContent h5 {
+  font-size: 18px;
+  color: blue;
+}
+
+#contactme img{
+   width: 80px;
+  height: 80px;
+}
+
+#contactme img:hover {
+  width: 50px;
+  height: 50px;
+ }
+
+#footer {
+  height: 120px;
+}
+
+#footer p{
+    font-size: 12px;
+  padding-bottom: 0;
+  display: inline-block;
+  padding-left: 2px;
+  padding-right: 2px;
+
+}
+
+#footer #one{
+  font-size: 12px;
+}
+
+#footer #homeIcon {
+  font-size: 30px;
+}
+
+
+
+}
+
